@@ -44,7 +44,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_SUBTRACT  &kp KP_PLUS  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &trans           &trans           &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMLOCK   &trans                                &kp KP_ENTER
-&trans          &trans  &trans  &trans  &trans  &trans  &trans           &trans           &kp KP_MULTIPLY  &kp KP_DOT       &kp KP_DIVIDE    &trans               &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans           &trans           &kp KP_MULTIPLY  &kp KP_DOT       &kp KP_DIVIDE    &tog 0               &trans
 &trans  &trans          &trans                  &trans                                                     &trans           &trans           &trans               &trans
             >;
         };
@@ -62,7 +62,7 @@
 &kp GRAVE  &kp F1          &kp F2          &kp F3           &kp F4      &kp F5    &kp F6         &kp F7  &kp F8  &kp F9          &kp F10          &kp F11          &kp F12  &kp DELETE  &kp DELETE
 &trans     &trans          &kp UP_ARROW    &trans           &kp INSERT  &kp HOME  &kp PAGE_UP    &trans  &trans  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &trans               &trans
 &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &kp END   &kp PAGE_DOWN  &trans  &trans  &trans          &trans           &trans                                &sys_reset
-&trans                     &trans          &trans           &trans      &trans    &trans         &trans  &trans  &trans          &trans           &trans           &trans               &tog 3
+&trans                     &trans          &trans           &trans      &trans    &trans         &trans  &trans  &trans          &trans           &trans           &trans               &tog 1
 &trans     &trans                          &trans                                 &trans                                         &trans           &trans           &trans               &trans
             >;
         };
@@ -71,8 +71,8 @@
             bindings = <
 &bt BT_CLR       &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &trans  &trans           &trans  &trans  &trans  &bt BT_SEL 0  &trans  &trans  &trans  &trans
 &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans  &trans           &trans  &trans  &trans  &trans        &trans  &trans          &trans
-&trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans  &trans           &trans  &trans  &trans  &trans        &trans                  &trans
-&trans                            &trans           &trans           &trans           &trans  &trans           &trans  &trans  &trans  &trans        &trans  &trans          &tog 0
+&trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans  &trans           &trans  &trans  &trans  &trans        &trans                  &bootloader
+&trans                            &trans           &trans           &trans           &trans  &trans           &trans  &trans  &trans  &trans        &trans  &trans          &trans
 &trans           &trans                            &trans                                    &rgb_ug RGB_TOG                          &trans        &trans  &trans          &trans
             >;
         };
